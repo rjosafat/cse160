@@ -142,7 +142,7 @@ function handleOperationEvent() {
       break;
     case "dot":
       let dotProduct = angleBetween(v1, v2);
-      console.log("Area: ", dotProduct);
+      console.log("Angle: ", dotProduct);
       break;
     case "cross":
       let crossProduct = areaTriangle(v1, v2);
